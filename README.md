@@ -334,6 +334,38 @@ Below are screenshots that demonstrate the API being hosted and running in IIS. 
 
 ### Azure Deployment
 
+#### Proof of UI hosting
+
+Below are screenshots that show the frontend UI running. Each thumbnail links to the full-size image in the repository's `docs/` folder.
+
+- Home / landing and dashboard views:
+
+[![UI screenshot 1](./docs/UI-1.png)](https://github.com/frankrogerrm/ChallengeApp/blob/main/docs/UI-1.png)
+
+- Document list and search:
+
+[![UI screenshot 2](./docs/UI-2.png)](https://github.com/frankrogerrm/ChallengeApp/blob/main/docs/UI-2.png)
+
+- Document upload flow:
+
+[![UI screenshot 3](./docs/UI-3.png)](https://github.com/frankrogerrm/ChallengeApp/blob/main/docs/UI-3.png)
+
+- Document detail and preview:
+
+[![UI screenshot 4](./docs/UI-4.png)](https://github.com/frankrogerrm/ChallengeApp/blob/main/docs/UI-4.png)
+
+- Sharing and permission UI:
+
+[![UI screenshot 5](./docs/UI-5.png)](https://github.com/frankrogerrm/ChallengeApp/blob/main/docs/UI-5.png)
+
+- Audit log / activity views:
+
+[![UI screenshot 6](./docs/UI-6.png)](https://github.com/frankrogerrm/ChallengeApp/blob/main/docs/UI-6.png)
+
+- Additional UI state / responsive layout:
+
+[![UI screenshot 7](./docs/UI-7.png)](https://github.com/frankrogerrm/ChallengeApp/blob/main/docs/UI-7.png)
+
 1. Create Azure App Service (Windows, .NET 9.0)
 2. Create Azure SQL Database
 3. Configure connection strings in App Service settings
