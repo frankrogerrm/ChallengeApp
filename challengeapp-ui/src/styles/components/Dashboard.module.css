@@ -1,0 +1,128 @@
+.dashboard {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.userInfo {
+  text-align: right;
+}
+
+.searchSection {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.searchBar {
+  flex-grow: 1;
+}
+
+.tableContainer {
+  margin-bottom: 2rem;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.pagination .page-item:first-child .page-link,
+.pagination .page-item:last-child .page-link {
+  color: var(--primary-color);
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  padding: 0.35rem 0.8rem;
+  border-radius: 0.375rem;
+}
+
+.pagination .page-item:first-child .page-link:hover,
+.pagination .page-item:last-child .page-link:hover {
+  background-color: #e9ecef;
+  color: var(--primary-color);
+}
+
+.pagination .page-link {
+  color: var(--primary-color);
+  background-color: transparent;
+  border: none;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.95rem;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  color: #212529;
+  padding: 0.35rem 1.4rem;
+  border-radius: 0.375rem;
+  font-weight: 600;
+}
+
+.pagination .page-item.disabled .page-link {
+  color: #adb5bd;
+}
+
+.currentPage {
+  background-color: #fff !important;
+  color: #212529 !important;
+  border: 1px solid #dee2e6 !important;
+  padding: 0.35rem 1.4rem !important;
+  border-radius: 0.375rem !important;
+  font-weight: 600 !important;
+}
+
+.currentPageItem {
+  display: inline-block;
+}
+
+.pagination .page-item:first-child .page-link,
+.pagination .page-item:last-child .page-link {
+  color: var(--primary-color);
+  background-color: #fff;
+  border: 1px solid var(--primary-color);
+  padding: 0.35rem 0.9rem;
+  border-radius: 0.375rem;
+}
+
+.pagination .page-item:first-child .page-link:hover,
+.pagination .page-item:last-child .page-link:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+
+  .userInfo {
+    text-align: left;
+  }
+
+  .searchSection {
+    flex-direction: column;
+  }
+
+  .actionButtons {
+    flex-wrap: wrap;
+  }
+}

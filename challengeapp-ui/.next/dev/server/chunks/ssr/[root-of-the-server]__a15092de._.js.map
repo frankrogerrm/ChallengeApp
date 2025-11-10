@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/framos/ChallengeApp/challengeapp-ui/src/pages/_app.tsx"],"sourcesContent":["import type { AppProps } from \"next/app\";\r\nimport { useEffect } from \"react\";\r\nimport \"bootstrap/dist/css/bootstrap.css\";\r\nimport \"bootstrap-icons/font/bootstrap-icons.css\";\r\nimport \"../styles/globals.css\";\r\n\r\nimport { ToastContainer } from \"react-toastify\";\r\nimport \"react-toastify/dist/ReactToastify.css\";\r\n\r\nfunction MyApp({ Component, pageProps }: AppProps) {\r\n  useEffect(() => {\r\n    import(\"bootstrap/dist/js/bootstrap.bundle.min.js\").catch(() => {});\r\n  }, []);\r\n\r\n  return (\r\n    <>\r\n      <Component {...pageProps} />\r\n      <ToastContainer position=\"top-right\" autoClose={3000} />\r\n    </>\r\n  );\r\n}\r\n\r\nexport default MyApp;\r\n"],"names":[],"mappings":";;;;;AACA;AAKA;;;;;;;;;;;;AAGA,SAAS,MAAM,EAAE,SAAS,EAAE,SAAS,EAAY;IAC/C,IAAA,gHAAS,EAAC;QACR,2JAAoD,KAAK,CAAC,KAAO;IACnE,GAAG,EAAE;IAEL,qBACE;;0BACE,qKAAC;gBAAW,GAAG,SAAS;;;;;;0BACxB,qKAAC,oJAAc;gBAAC,UAAS;gBAAY,WAAW;;;;;;;;AAGtD;uCAEe","debugId":null}}]
+}

@@ -1,0 +1,16 @@
+/* [project]/src/styles/components/ShareDocumentModal.module.css [client] (css) */
+.ShareDocumentModal-module__kBzroW__modalBackdrop {
+  background-color: #00000080;
+}
+
+.ShareDocumentModal-module__kBzroW__userList {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.ShareDocumentModal-module__kBzroW__permissionBadge {
+  text-align: center;
+  min-width: 60px;
+}
+
+/*# sourceMappingURL=src_styles_components_ShareDocumentModal_module_css_65f1660e._.single.css.map*/

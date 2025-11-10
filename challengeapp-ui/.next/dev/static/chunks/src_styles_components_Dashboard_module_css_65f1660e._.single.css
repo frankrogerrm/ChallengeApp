@@ -1,0 +1,127 @@
+/* [project]/src/styles/components/Dashboard.module.css [client] (css) */
+.Dashboard-module__XSDGxq__dashboard {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.Dashboard-module__XSDGxq__header {
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.Dashboard-module__XSDGxq__userInfo {
+  text-align: right;
+}
+
+.Dashboard-module__XSDGxq__searchSection {
+  gap: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.Dashboard-module__XSDGxq__searchBar {
+  flex-grow: 1;
+}
+
+.Dashboard-module__XSDGxq__tableContainer {
+  margin-bottom: 2rem;
+}
+
+.Dashboard-module__XSDGxq__actionButtons {
+  gap: .5rem;
+  display: flex;
+}
+
+.Dashboard-module__XSDGxq__pagination {
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  margin-top: 2rem;
+  display: flex;
+}
+
+.Dashboard-module__XSDGxq__pagination .Dashboard-module__XSDGxq__page-item:first-child .Dashboard-module__XSDGxq__page-link, .Dashboard-module__XSDGxq__pagination .Dashboard-module__XSDGxq__page-item:last-child .Dashboard-module__XSDGxq__page-link {
+  color: var(--primary-color);
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: .375rem;
+  padding: .35rem .8rem;
+}
+
+.Dashboard-module__XSDGxq__pagination .Dashboard-module__XSDGxq__page-item:first-child .Dashboard-module__XSDGxq__page-link:hover, .Dashboard-module__XSDGxq__pagination .Dashboard-module__XSDGxq__page-item:last-child .Dashboard-module__XSDGxq__page-link:hover {
+  color: var(--primary-color);
+  background-color: #e9ecef;
+}
+
+.Dashboard-module__XSDGxq__pagination .Dashboard-module__XSDGxq__page-link {
+  color: var(--primary-color);
+  background-color: #0000;
+  border: none;
+  padding: .25rem .6rem;
+  font-size: .95rem;
+}
+
+.Dashboard-module__XSDGxq__pagination .Dashboard-module__XSDGxq__page-item.Dashboard-module__XSDGxq__active .Dashboard-module__XSDGxq__page-link {
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: .375rem;
+  padding: .35rem 1.4rem;
+  font-weight: 600;
+}
+
+.Dashboard-module__XSDGxq__pagination .Dashboard-module__XSDGxq__page-item.Dashboard-module__XSDGxq__disabled .Dashboard-module__XSDGxq__page-link {
+  color: #adb5bd;
+}
+
+.Dashboard-module__XSDGxq__currentPage {
+  color: #212529 !important;
+  background-color: #fff !important;
+  border: 1px solid #dee2e6 !important;
+  border-radius: .375rem !important;
+  padding: .35rem 1.4rem !important;
+  font-weight: 600 !important;
+}
+
+.Dashboard-module__XSDGxq__currentPageItem {
+  display: inline-block;
+}
+
+.Dashboard-module__XSDGxq__pagination .Dashboard-module__XSDGxq__page-item:first-child .Dashboard-module__XSDGxq__page-link, .Dashboard-module__XSDGxq__pagination .Dashboard-module__XSDGxq__page-item:last-child .Dashboard-module__XSDGxq__page-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  background-color: #fff;
+  border-radius: .375rem;
+  padding: .35rem .9rem;
+}
+
+.Dashboard-module__XSDGxq__pagination .Dashboard-module__XSDGxq__page-item:first-child .Dashboard-module__XSDGxq__page-link:hover, .Dashboard-module__XSDGxq__pagination .Dashboard-module__XSDGxq__page-item:last-child .Dashboard-module__XSDGxq__page-link:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .Dashboard-module__XSDGxq__header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+
+  .Dashboard-module__XSDGxq__userInfo {
+    text-align: left;
+  }
+
+  .Dashboard-module__XSDGxq__searchSection {
+    flex-direction: column;
+  }
+
+  .Dashboard-module__XSDGxq__actionButtons {
+    flex-wrap: wrap;
+  }
+}
+
+/*# sourceMappingURL=src_styles_components_Dashboard_module_css_65f1660e._.single.css.map*/

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["file:///C:/Repos/ChallengeApp/challengeapp-ui/src/pages/_app.tsx"],"sourcesContent":["import type { AppProps } from \"next/app\";\r\nimport { useEffect } from \"react\";\r\nimport \"bootstrap/dist/css/bootstrap.css\";\r\nimport \"bootstrap-icons/font/bootstrap-icons.css\";\r\nimport \"../styles/globals.css\";\r\n\r\nfunction MyApp({ Component, pageProps }: AppProps) {\r\n  useEffect(() => {\r\n    import(\"bootstrap/dist/js/bootstrap.bundle.min.js\").catch(() => {});\r\n  }, []);\r\n\r\n  return <Component {...pageProps} />;\r\n}\r\n\r\nexport default MyApp;\r\n"],"names":[],"mappings":";;;;;AACA;;;;;;AAKA,SAAS,MAAM,EAAE,SAAS,EAAE,SAAS,EAAY;IAC/C,IAAA,gHAAS,EAAC;QACR,2JAAoD,KAAK,CAAC,KAAO;IACnE,GAAG,EAAE;IAEL,qBAAO,qKAAC;QAAW,GAAG,SAAS;;;;;;AACjC;uCAEe","debugId":null}}]
+}

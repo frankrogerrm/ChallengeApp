@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/framos/ChallengeApp/challengeapp-ui/src/styles/components/ShareDocumentModal.module.css"],"sourcesContent":[".modalBackdrop {\r\n  background-color: rgba(0, 0, 0, 0.5);\r\n}\r\n\r\n.userList {\r\n  max-height: 300px;\r\n  overflow-y: auto;\r\n}\r\n\r\n.permissionBadge {\r\n  min-width: 60px;\r\n  text-align: center;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;AAIA;;;;;AAKA","debugId":null}}]
+}

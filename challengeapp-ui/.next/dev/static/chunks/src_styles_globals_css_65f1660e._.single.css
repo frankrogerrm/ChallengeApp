@@ -1,0 +1,108 @@
+/* [project]/src/styles/globals.css [client] (css) */
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #475569;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  transition: box-shadow .3s;
+  box-shadow: 0 2px 4px #0000000d;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+.table th {
+  border-bottom-width: 2px;
+  font-weight: 600;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.btn {
+  letter-spacing: .025em;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+.badge {
+  padding: .35em .65em;
+  font-weight: 500;
+}
+
+.form-control:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 .2rem #2563eb40;
+}
+
+.login-page {
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px #0000000d;
+}
+
+.pagination .page-link {
+  color: var(--primary-color);
+}
+
+.pagination .active .page-link {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-group > .btn {
+  margin-right: 2px;
+}
+
+.modal-content {
+  border: none;
+  border-radius: .5rem;
+  box-shadow: 0 4px 6px #0000001a;
+}
+
+.modal-header {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.modal-footer {
+  border-top: 1px solid #e5e7eb;
+}
+
+.spinner-border {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .table-responsive {
+    border-radius: .5rem;
+  }
+
+  .btn-group {
+    gap: .25rem;
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=src_styles_globals_css_65f1660e._.single.css.map*/

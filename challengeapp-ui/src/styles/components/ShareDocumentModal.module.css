@@ -1,0 +1,13 @@
+.modalBackdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.userList {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.permissionBadge {
+  min-width: 60px;
+  text-align: center;
+}
