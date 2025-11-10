@@ -316,6 +316,22 @@ IpAddress    nvarchar(50)
 4. Configure web.config for production environment
 5. Set up HTTPS bindings with valid SSL certificate
 
+#### Proof of IIS hosting
+
+Below are screenshots that demonstrate the API being hosted and running in IIS. Each image links to the full-size file in the repository.
+
+- For the step of creating the web application in IIS:
+
+[![Create web application in IIS](./docs/API-IIS-1.png)](https://github.com/frankrogerrm/ChallengeApp/blob/main/docs/API-IIS-1.png)
+
+- For the creation of the application pool in IIS:
+
+[![Application pool creation](./docs/API-IIS-2.PNG)](https://github.com/frankrogerrm/ChallengeApp/blob/main/docs/API-IIS-2.PNG)
+
+- Proof the API is running in IIS:
+
+[![API running in IIS](./docs/API-IIS-3.png)](https://github.com/frankrogerrm/ChallengeApp/blob/main/docs/API-IIS-3.png)
+
 ### Azure Deployment
 
 1. Create Azure App Service (Windows, .NET 9.0)
