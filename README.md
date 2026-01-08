@@ -1,4 +1,4 @@
-# ChallengeApp - Enterprise Document Management System
+Enterprise Document Management System
 
 A full-stack enterprise document management system built with ASP.NET Core and Next.js, demonstrating modern web development practices, secure file handling, and role-based access control.
 
